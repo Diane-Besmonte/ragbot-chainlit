@@ -31,17 +31,17 @@ This app answers questions about AI-related bills in the Philippines by searchin
    cd your-repo
    
 2. Create a .env file based on .env.example and add your keys:
-   OPENAI_API_KEY=your-openai-key
+   ```OPENAI_API_KEY=your-openai-key
    QDRANT_URL=https://your-qdrant-instance.com
    QDRANT_API_KEY=your-qdrant-api-key
    COLLECTION_NAME=chainlit_rag_collection
 
 3. Install dependencies:
-   pip install -r requirements.txt
+   ```pip install -r requirements.txt
 
 
 4. Ingest your PDFs to Qdrant (optional if you are running ingest on deployment):
-   python ingest.py
+   ```python ingest.py
 
 Run the Chainlit app locally:
-   chainlit run app.py
+   ```chainlit run app.py
