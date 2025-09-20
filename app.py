@@ -58,15 +58,15 @@ qa_chain = RetrievalQA.from_chain_type(
 )
 
 # Chatbot starts chat session
-@cl.on_chat_start
-async def start():
-    # Sends a starter message
-    start_message = (
-        "👋 Welcome to AI Bills RAGBot! "
-        "This is your go-to assistant for questions about AI-related bills in the Philippines. "
-        "How can I help you today?"
-    )
-    await cl.Message(content=start_message).send()
+# @cl.on_chat_start
+# async def start():
+#     # Sends a starter message
+#     start_message = (
+#         "👋 Welcome to AI Bills RAGBot! "
+#         "This is your go-to assistant for questions about AI-related bills in the Philippines. "
+#         "How can I help you today?"
+#     )
+#     await cl.Message(content=start_message).send()
 
 # Chainlit event
 @cl.on_message
