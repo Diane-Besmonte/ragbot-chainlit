@@ -41,7 +41,6 @@ This app answers questions about AI-related bills in the Philippines by searchin
    ```bash
    pip install -r requirements.txt
 
-
 4. Ingest your PDFs to Qdrant (optional if you are running ingest on deployment):
    ```bash
    python ingest.py
