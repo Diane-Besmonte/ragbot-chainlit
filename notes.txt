@@ -1,0 +1,4 @@
+# Run ingest.py if:
+- Added new files on data (source of documents)
+- Updated existing documents/files
+- Want to rebuild the knowledge base
